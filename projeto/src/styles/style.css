@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite CU", cursive;
+    cursor: pointer;
+
+    
+}
+:root{
+    --bgColor: #B70004;
+    --lineColor: #DDB134;
+}
+body{
+    background-color: #B70004;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--bgColor);
+    border: 3px groove var(--lineColor);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--lineColor);
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+    border: 1px solid gold;
+}
+header{
+    border-bottom: 10px groove var(--lineColor);
+    margin-bottom: 100px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+header h1{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+header p{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.exposition{
+    border: 2px solid var(--lineColor);
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.composition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.composition img{
+    text-align: center;
+    width: 400px;
+    border-radius: 2rem;
+    border: 5px groove var(--lineColor);
+}

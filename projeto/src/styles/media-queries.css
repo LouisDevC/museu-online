@@ -1,0 +1,10 @@
+@media all and (max-width: 545px){
+    .exposition{
+        border: none;
+    }
+}
+@media all and (max-width: 380px){
+    .composition img{
+        width: 300px;
+    }
+}
